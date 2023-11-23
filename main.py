@@ -45,9 +45,9 @@ fig = beam.plot_beam_diagram()
 # Show the input and free body diagram
 fig_1 = beam.plot_beam_external()
 # fig_1.show()
-fig_1.write_json("./data.json")
-fig_1.write_image("./data.pdf")
-fig_1.write_html("./data.html")
+fig_1.write_json("./output/data.json")
+fig_1.write_image("./output/data.pdf")
+fig_1.write_html("./output/data.html")
 
 # Show the axial, shear, bending moment, deflection
 fig_2 = beam.plot_beam_internal()
